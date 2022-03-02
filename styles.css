@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #181818;
+    overflow: hidden;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-weight: 300;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.right {
+    flex: 1;
+}
+
+/* sign in */
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 16px;
+}
+
+.login  form {
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+.login .logo {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.login .logo img {
+    width: 100px;
+}
+
+.login label {
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.login .text {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    background-color: #181818;
+    border: 1px solid #555;
+    color: #ccc;
+    padding: 4px 16px;
+    line-height: 21px;
+}
+
+@media(min-width: 1200px) {
+    .left {
+        flex: 4;
+    }
+
+    .right {
+        flex: 6;
+    }
+}
+
+button {
+    font-weight: 500;
+    height: 42px;
+    padding: 10px 16px;
+    margin-top: 5px;
+    display: block;
+    border: 0;
+    border-radius: 2px;
+    background-color: #f96816;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ff7b39;
+}
+
+.secondary-btn {
+    font-weight: 500;
+    padding: 10px 16px;
+    height: 42px;
+    display: block;
+    border: 1px solid #f4f4f4;
+    border-radius: 2px;
+    background-color: none;
+    color: #fff;
+    text-decoration: none;  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.secondary-btn:hover {
+    color: #ff7b39;
+    border-color: #ff7b39;
+}
+
+.login .secondary-btn,
+.OR,
+.links {
+    width: 60%;
+}
+
+.login .links a {
+    display: block;
+    margin-bottom: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.login .OR {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 21px; 
+    align-items: center;
+}
+
+.bar {
+    flex: auto;
+    height: 1px;
+    border: none;
+    background-color: #aaa;
+}
+
+span {
+    padding: 0 10px;
+    color: #ccc;
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+    color: #ccc;
+    max-width: 80%;
+}
+
+footer a {
+    color: #f96816;
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+    padding: 0 5px;
+
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("file:///Users/hang/projects/loginpage/background.jpeg") no-repeat center center / cover;
+    /* background-size: cover; */
+    height: 100vh;
+}
+
+h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.showcase a {
+    width: 60%;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+    .right {
+        display: none;
+    }
+}
