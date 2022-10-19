@@ -1,4 +1,4 @@
-@import url('./asset/background.jpeg');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -186,7 +186,7 @@ footer a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: url("file:///Users/hang/projects/loginpage/background.jpeg") no-repeat center center / cover;
+    background: url("./asset/background.jpeg") no-repeat center center / cover;
     /* background-size: cover; */
     height: 100vh;
 }
