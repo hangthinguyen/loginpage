@@ -187,7 +187,6 @@ footer a {
     align-items: center;
     text-align: center;
     background: url("./asset/background.jpeg") no-repeat center center / cover;
-    /* background-size: cover; */
     height: 100vh;
 }
 
