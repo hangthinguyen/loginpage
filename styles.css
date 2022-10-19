@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('./asset/background.jpeg');
 
 * {
     box-sizing: border-box;
@@ -9,6 +9,7 @@ body {
     background-color: #181818;
     overflow: hidden;
     color: #fff;
+    margin: 0;
 }
 
 h1,
@@ -119,7 +120,7 @@ button:hover {
     border-radius: 2px;
     background-color: none;
     color: #fff;
-    text-decoration: none;  
+    text-decoration: none;
     cursor: pointer;
     text-align: center;
     transition: all 0.5s;
@@ -148,7 +149,7 @@ button:hover {
 .login .OR {
     display: flex;
     flex-direction: row;
-    margin-bottom: 21px; 
+    margin-bottom: 21px;
     align-items: center;
 }
 
